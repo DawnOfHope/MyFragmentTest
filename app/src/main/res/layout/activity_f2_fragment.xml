@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
+    android:id="@+id/activity_f2_fragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.zorahu.myfragmenttest.MainActivity">
+    tools:context="com.example.zorahu.myfragmenttest.F2Fragment">
 
-    <Button
+    <TextView
+        android:id="@+id/f2_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Go"
-        android:onClick="go"/>
-    <FrameLayout
-        android:id="@+id/container"
+        android:text="I am f2"/>
+    <Button
+        android:id="@+id/f2_b2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:onClick="b2"
+        android:text="b2"/>
 
-    </FrameLayout>
 </LinearLayout>
